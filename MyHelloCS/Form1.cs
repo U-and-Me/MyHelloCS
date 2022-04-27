@@ -21,5 +21,10 @@ namespace MyHelloCS
         {
 
         }
+
+        private void btnGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("환영합니다!!", "환영 인사", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+        }
     }
 }
